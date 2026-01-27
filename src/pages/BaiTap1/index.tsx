@@ -35,20 +35,16 @@ const initialProducts: Product[] = [
 ];
 
 const ProductManagement: React.FC = () => {
-	// 1. Local State Management
 	const [products, setProducts] = useState<Product[]>(initialProducts);
 	const [isModalVisible, setIsModalVisible] = useState(false);
 	const [searchText, setSearchText] = useState('');
 	const [form] = Form.useForm();
 
-	// 2. Memoized Search Filtering
-	// Real-time update when typing (standard behavior for local filtering)
 	const filteredProducts = useMemo(() => {
 		if (!searchText) return products;
 		return products.filter((item) => item.name.toLowerCase().includes(searchText.toLowerCase()));
 	}, [products, searchText]);
 
-	// 3. Add Product Handler
 	const handleAddProduct = (values: Omit<Product, 'id'>) => {
 		const newId = products.length > 0 ? Math.max(...products.map((p) => p.id)) + 1 : 1;
 		const newProduct: Product = {
@@ -61,13 +57,11 @@ const ProductManagement: React.FC = () => {
 		form.resetFields();
 	};
 
-	// 4. Delete Product Handler
 	const handleDeleteProduct = (id: number) => {
 		setProducts(products.filter((item) => item.id !== id));
 		message.success('Xóa sản phẩm thành công!');
 	};
 
-	// Table Columns Definition
 	const columns: ColumnsType<Product> = [
 		{
 			title: 'STT',
