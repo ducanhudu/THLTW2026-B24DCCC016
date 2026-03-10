@@ -54,6 +54,18 @@
 		icon: 'SmileOutlined',
 		component: './DoanSoNgauNhien',
 	},
+	{
+		path: '/keo-bua-bao',
+		name: 'KeoBuaBao',
+		icon: 'SmileOutlined',
+		component: './KeoBuaBao',
+	},
+	{
+		path: '/ngan-hang-de-thi',
+		name: 'NganHangDeThi',
+		icon: 'SmileOutlined',
+		component: './NganHangDeThi',
+	},
 
 	// DANH MUC HE THONG
 	// {
