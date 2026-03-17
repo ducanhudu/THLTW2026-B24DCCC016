@@ -66,6 +66,12 @@
 		icon: 'SmileOutlined',
 		component: './NganHangDeThi',
 	},
+	{
+		path: '/set-lich-dich-vu',
+		name: 'SetLichDichVu',
+		icon: 'SmileOutlined',
+		component: './SetLichDichVu',
+	},
 
 	// DANH MUC HE THONG
 	// {
