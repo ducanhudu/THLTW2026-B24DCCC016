@@ -72,6 +72,12 @@
 		icon: 'SmileOutlined',
 		component: './SetLichDichVu',
 	},
+	{
+		path: '/van-bang',
+		name: 'QuanLyVanBang',
+		icon: 'SmileOutlined',
+		component: './VanBang',
+	},
 
 	// DANH MUC HE THONG
 	// {
