@@ -106,7 +106,6 @@ const ThongTinVanBang = ({ list = [], setList, quyetDinhList = [], mauBieu = [] 
 						/>
 					</Form.Item>
 
-					{/* 🔥 FIELD ĐỘNG */}
 					{mauBieu.map((field: any) => (
 						<Form.Item key={field.name} label={field.label} name={field.name}>
 							{field.type === 'number' ? <InputNumber style={{ width: '100%' }} /> : <Input />}
