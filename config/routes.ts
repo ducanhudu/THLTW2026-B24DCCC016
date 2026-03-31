@@ -1,4 +1,4 @@
-﻿export default [
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -77,6 +77,12 @@
 		name: 'QuanLyVanBang',
 		icon: 'SmileOutlined',
 		component: './VanBang',
+	},
+	{
+		path: '/quan-ly-cau-lac-bo',
+		name: 'QuanLyCauLacBo',
+		icon: 'SmileOutlined',
+		component: './club-management',
 	},
 
 	// DANH MUC HE THONG
