@@ -84,6 +84,12 @@ export default [
 		icon: 'SmileOutlined',
 		component: './club-management',
 	},
+	{
+		path: '/travel',
+		name: 'Travel',
+		icon: 'CompassOutlined',
+		component: './Travel',
+	},
 
 	// DANH MUC HE THONG
 	// {
