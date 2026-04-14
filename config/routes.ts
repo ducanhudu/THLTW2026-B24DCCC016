@@ -90,6 +90,12 @@ export default [
 		icon: 'CompassOutlined',
 		component: './Travel',
 	},
+	{
+		path: '/course-management',
+		name: 'CourseManagement',
+		icon: 'BookOutlined',
+		component: './course-management',
+	},
 
 	// DANH MUC HE THONG
 	// {
