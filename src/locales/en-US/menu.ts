@@ -2,7 +2,7 @@ export default {
   'menu.login': 'Đăng nhập',
   'menu.account': 'Tài khoản',
   'menu.account.center': 'Cá nhân',
-  'menu.Dashboard': 'Trang chủ',
+  'menu.Dashboard': 'Blog',
   'menu.News': 'Tin tức',
 
   'menu.DanhMuc': 'Danh mục',

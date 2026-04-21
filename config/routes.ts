@@ -25,6 +25,26 @@ export default [
 		icon: 'HomeOutlined',
 	},
 	{
+		path: '/dashboard/about',
+		component: './TrangChu/About',
+		hideInMenu: true,
+	},
+	{
+		path: '/dashboard/blog-manager',
+		component: './TrangChu/BlogManager',
+		hideInMenu: true,
+	},
+	{
+		path: '/dashboard/tag-manager',
+		component: './TrangChu/TagManager',
+		hideInMenu: true,
+	},
+	{
+		path: '/dashboard/:id',
+		component: './TrangChu/Detail',
+		hideInMenu: true,
+	},
+	{
 		path: '/gioi-thieu',
 		name: 'About',
 		component: './TienIch/GioiThieu',
