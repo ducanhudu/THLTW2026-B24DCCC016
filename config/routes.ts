@@ -16,8 +16,6 @@ export default [
 		],
 	},
 
-	///////////////////////////////////
-	// DEFAULT MENU
 	{
 		path: '/dashboard',
 		name: 'Dashboard',
@@ -116,20 +114,12 @@ export default [
 		icon: 'BookOutlined',
 		component: './course-management',
 	},
-
-	// DANH MUC HE THONG
-	// {
-	// 	name: 'DanhMuc',
-	// 	path: '/danh-muc',
-	// 	icon: 'copy',
-	// 	routes: [
-	// 		{
-	// 			name: 'ChucVu',
-	// 			path: 'chuc-vu',
-	// 			component: './DanhMuc/ChucVu',
-	// 		},
-	// 	],
-	// },
+	{
+		path: '/healthcare',
+		name: 'HealthCare',
+		icon: 'HeartOutlined',
+		component: './Healthcare/FitnessAppPage',
+	},
 
 	{
 		path: '/notification',
