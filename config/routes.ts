@@ -120,6 +120,12 @@ export default [
 		icon: 'HeartOutlined',
 		component: './Healthcare/FitnessAppPage',
 	},
+	{
+		path: '/task-manager',
+		name: 'Task Manager',
+		icon: 'UnorderedListOutlined',
+		component: './task-management',
+	},
 
 	{
 		path: '/notification',
